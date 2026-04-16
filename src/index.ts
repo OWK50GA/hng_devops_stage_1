@@ -16,7 +16,7 @@ app.get("/", (_req: Request, res: Response) => {
 
 app.get("/health", (_req: Request, res: Response) => {
     return res.status(200).json({
-        message: "Healthy"
+        message: "healthy"
     });
 });
 
