@@ -10,49 +10,20 @@ Now, the goal was to run the server locally in the remote linux server, and use 
 
 ## Tech Stack
 
-- **Runtime:** Node.js
-- **Framework:** Express.js 5.2.1
-- **Language:** TypeScript 6.0.2
-- **Package Manager:** pnpm
-- **Additional Libraries:** CORS support
+- Running Backend:
+  - **Runtime:** Node.js
+  - **Framework:** Express.js 5.2.1
+  - **Language:** TypeScript 6.0.2
+  - **Package Manager:** pnpm
+  - **Additional Libraries:** CORS support
 
-## Setup Instructions
+- Deployment
+  - AWS EC2 Instance
+  - Nginx
+  - PEM2
+  - Certbot
 
-### Prerequisites
-
-- Node.js (v18 or higher)
-- pnpm 10.24.0
-
-### Installation
-
-```bash
-# Install dependencies
-pnpm install
-```
-
-### Running the Server
-
-**Development mode (with auto-reload):**
-```bash
-pnpm dev
-```
-
-**Production build and run:**
-```bash
-pnpm build
-pnpm start
-```
-
-**Format code:**
-```bash
-pnpm format
-```
-
-The server will start on port `3001` by default. You can change this using the `PORT` environment variable:
-
-```bash
-PORT=5000 pnpm start
-```
+Deployed live [here](https://hngtask1wilfrid.mooo.com/)
 
 ## API Endpoints
 
